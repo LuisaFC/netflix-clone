@@ -1,5 +1,6 @@
 header{
-    height: 700px;
+    height: 650px;
+    width: 100%;
     /* background: #000000; */
     /* background: url("https://assets.nflxext.com/ffe/siteui/vlv3/5812306a-6b67-4f2e-aac7-11436dda1e09/0a0f8952-65ec-497c-86cc-771139b0371d/BR-pt-20200127-popsignuptwoweeks-perspective_alpha_website_small.jpg"); */
     background: url("./images/bg.jpg");
@@ -74,4 +75,43 @@ header{
     color: white;
     border: none;
     margin: 0;
+}
+
+body{
+    background: #4f4f4f;
+    width: 100%;
+}
+
+
+.beneficios{
+    background: #090707;
+    width: 100%;
+    margin: 10px 0 0 0;
+    color: white;
+}
+
+.conteudo{
+    width: 100%;
+    height: 380px;
+    margin: 10px;
+    position: relative;
+    left: 110px;
+    top: 100px;
+}
+
+.conteudo h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.conteudo p{
+    font-size: 26px;
+    width: 35%;
+}
+
+.catalogo-imagem{
+    width: 460px;
+    position: relative;
+    left: 720px;
+    top: -170px;
 }
