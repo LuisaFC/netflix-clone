@@ -1,49 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">  
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-
-        <title>Clone Netflix</title>
+        <title>Netflix</title>
 
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
     </head>
 
     <body>
+        
 
         <header>
-            
+
+            <h1><img src="./images/logo.png" alt="Logo Netflix" class="logo"></h1>
+
+            <input type="button" value="Entrar" class="entrar">
+
             <div class="caixa">
-                <h1><img src="./images/logo.png" alt="Logo Netflix" class="logo"></h1>
-                <input type="button" value="Entrar" class="entrar">
+            
+                <h1>Filmes, séries e muito mais. Sem limites.</h1>    
+                <h2>Assista onde quiser. Cancele quando quiser</h2> 
 
-                <div class="assine">
-                    <h2>Filmes, séries e muito mais. Sem limites.</h2>
-                    <h3>Assista onde quiser. Cancele quando quiser</h3>
+                <form class="formulario">
+                    <input type="email" placeholder="Email" class="input-padrao" required>   
+                    <input type="submit" value="Assine a Netflix" class="enviar">
+                </form>
 
-                    <form>
-                        <input type="email" placeholder="Email" class="input-padrao" required>
-                        <input type="submit" value="Assine a Netflix" class="enviar">
-                    </form>
-
-                    <p>Pronto para assistir? Informe seu email para criar ou acessar sua conta</p >
-
-                </div>
+                <p>Pronto para assistir? Informe seu email para criar sua conta</p>
+                
             </div>
-
+        
         </header>
 
         <main>
-            <div class="beneficios">
-                <section class="conteudo">
+
+            <section>
+
+                <div class="beneficios">
+
                     <h2>Aproveite na TV.</h2>
                     <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros aparelhos</p>
-                    <img src="./images/catalogo.png" alt="Catalogo" class="catalogo-imagem" >
-                </section>
-            </div>
+                
+                </div>
+
+            </section>
+
         </main>
 
     </body>
+
 </html>

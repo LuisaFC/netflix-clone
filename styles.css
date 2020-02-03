@@ -1,117 +1,95 @@
-header{
-    height: 650px;
-    width: 100%;
-    /* background: #000000; */
-    /* background: url("https://assets.nflxext.com/ffe/siteui/vlv3/5812306a-6b67-4f2e-aac7-11436dda1e09/0a0f8952-65ec-497c-86cc-771139b0371d/BR-pt-20200127-popsignuptwoweeks-perspective_alpha_website_small.jpg"); */
-    background: url("./images/bg.jpg");
-    box-shadow: inset 0 0 30px #000000;
-    padding: 40px 50px;
+body{
+    background: #4f4f4f;
+    font-family: 'Roboto', sans-serif;
 }
 
-.caixa{
-    position: relative;
-    width: 940px;
-    margin: auto;
+header{
+    width: 100%;
+    height: 650px;
+    background: black;
+    background: url("./images/bg.jpg");
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo{
     width: 120px;
-    position: absolute;
-    left: -200px;
-    /* padding: 20px 20px; */
-    /* display: inline; */
+    margin: 25px 45px;
 }
 
 .entrar{
-    width: 70px;
     background: #f50000;
-    padding: 8px 10px;
     border: none;
-    border-radius: 3px;
+    border-radius: 2px;
     color: white;
+    padding: 5px 10px;
     position: absolute;
-    right: -170px;
-    top: 0px
+    top: 25px;
+    right: 0;
+    margin: 0 65px;
 }
 
-.assine{
-    width: 600px;
-    text-align: center;
-    margin: auto;
+.caixa{
+    width: 500px;
+    color: whitesmoke;
+    margin: auto ;
     position: relative;
-    top: 180px  ;
+    top: 180px;
 }
 
-.assine h2{
-    font-size: 50px;
-    color: white;
-    font-weight: bold;
+.caixa h1{
+    font-size: 48px;
+    text-align: center;
 }
 
-.assine h3{
-    font-size: 24px;
-    padding: 20px;
-    color: white;
+.caixa h2{
+    font-size: 21px;
+    padding: 15px;
+    text-align: center;
 }
 
+.caixa p{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
 
-
-.assine p{
-    font-size: 18px;
-    padding: 20px;
-    color: white;
+.formulario{
+    width: 650px;
 }
 
 .input-padrao{
-    padding: 15px 30px;
     width: 50%;
-}
-
-.enviar{
-    text-transform: uppercase;
-    display: inline;
-    padding: 17px 30px;
-    background: #f50000;
-    color: white;
-    border: none;
+    padding: 15px 30px 15px 5px;
     margin: 0;
 }
 
-body{
-    background: #4f4f4f;
-    width: 100%;
+.enviar{
+    width: 25%;
+    padding: 17px 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    background: #f50000;
+    border: #f50000;
 }
 
-
-.beneficios{
+section{
+    padding: 100px;
+    margin: 7px 0 0 0;
     background: #090707;
-    width: 100%;
-    margin: 10px 0 0 0;
     color: white;
 }
 
-.conteudo{
-    width: 100%;
-    height: 380px;
-    margin: 10px;
-    position: relative;
-    left: 110px;
-    top: 100px;
+.beneficios{
+    width: 420px;
 }
 
-.conteudo h2{
-    font-size: 50px;
-    padding-bottom: 20px;
+.beneficios h2{
+    font-size: 40px;
 }
 
-.conteudo p{
-    font-size: 26px;
-    width: 35%;
-}
-
-.catalogo-imagem{
-    width: 460px;
-    position: relative;
-    left: 720px;
-    top: -170px;
+.beneficios p{
+    font-size: 20px;
+    padding: 15px 0;
 }
