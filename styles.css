@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    width: 100%;
+    width: 940;
     height: 650px;
     background: black;
     background: url("./images/bg.jpg");
@@ -75,7 +75,7 @@ header{
 }
 
 section{
-    padding: 100px;
+    padding: 80px;
     margin: 7px 0 0 0;
     background: #090707;
     color: white;
@@ -83,13 +83,20 @@ section{
 
 .beneficios{
     width: 420px;
+    margin-left: 120px;
 }
 
 .beneficios h2{
     font-size: 40px;
+    margin-top: 50px;
 }
 
 .beneficios p{
     font-size: 20px;
     padding: 15px 0;
+}
+
+.imagem-catalogo{
+    width: 370px;
+    margin: -150px 0 0 700px;
 }
