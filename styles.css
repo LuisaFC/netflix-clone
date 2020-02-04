@@ -6,7 +6,7 @@ body{
 header{
     width: 940;
     height: 650px;
-    background: black;
+    /* background: black; */
     background: url("./images/bg.jpg");
     font-family: 'Roboto', sans-serif;
 }
@@ -99,4 +99,61 @@ section{
 .imagem-catalogo{
     width: 370px;
     margin: -150px 0 0 700px;
+}
+
+footer{
+    margin: 30px;
+    background: #4f4f4f;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.login{
+    background: url("./images/bg.jpg");
+    font-family: 'Roboto', sans-serif;
+}
+
+.dados{
+    background: black;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 60px
+}
+
+.info{
+    text-align: center;
+}
+
+.info h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40PX;
+}
+
+.input-login{
+    padding: 10px 40px;
+    margin-bottom: 20PX;
+}
+
+.button-login{
+    color: white;
+    background: #f50000;
+    border: #f50000;
+    border-radius: 5px;
+    display: block;
+    margin-top: 40px;
+    padding: 10px 100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+fieldset{
+    margin: 10px 0 0 70px;
+    color: white;
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
 }
